@@ -56,11 +56,11 @@ export default function Navbar() {
               <a
                 href={item.href}
                 aria-current={active === item.href ? 'true' : undefined}
-                className={`relative text-sm transition-colors hover:text-ink ${active === item.href ? 'text-ink' : 'text-[#6F6F6F]'}`}
+                className={`relative text-sm transition-colors hover:text-[#000000] ${active === item.href ? 'text-[#000000]' : 'text-[#6F6F6F]'}`}
               >
                 {item.label}
                 <span
-                  className={`absolute -bottom-1.5 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-ink transition-opacity duration-300 ${active === item.href ? 'opacity-100' : 'opacity-0'}`}
+                  className={`absolute -bottom-1.5 left-1/2 h-1 w-1 -translate-x-1/2 rounded-full bg-black transition-opacity duration-300 ${active === item.href ? 'opacity-100' : 'opacity-0'}`}
                   aria-hidden="true"
                 />
               </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-3">
-          <a href="#contact" className="hidden rounded-full bg-ink px-6 py-2.5 text-sm text-white transition-transform duration-300 hover:scale-[1.03] sm:inline-flex">
+          <a href="#contact" className="hidden rounded-full bg-[#000000] px-6 py-2.5 text-sm text-white transition-transform duration-300 hover:scale-[1.03] sm:inline-flex">
             Get a Quote
           </a>
           <button
@@ -81,8 +81,8 @@ export default function Navbar() {
             onClick={() => setOpen((v) => !v)}
           >
             <span className="relative block h-3 w-4">
-              <span className={`absolute left-0 h-px w-4 bg-ink transition-transform duration-300 ${open ? 'top-1.5 rotate-45' : 'top-0.5'}`} />
-              <span className={`absolute left-0 h-px w-4 bg-ink transition-transform duration-300 ${open ? 'top-1.5 -rotate-45' : 'top-2.5'}`} />
+              <span className={`absolute left-0 h-px w-4 bg-black transition-transform duration-300 ${open ? 'top-1.5 rotate-45' : 'top-0.5'}`} />
+              <span className={`absolute left-0 h-px w-4 bg-black transition-transform duration-300 ${open ? 'top-1.5 -rotate-45' : 'top-2.5'}`} />
             </span>
           </button>
         </div>
@@ -98,14 +98,14 @@ export default function Navbar() {
               <a
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className={`block py-2 font-display text-3xl tracking-tight ${active === item.href ? 'text-ink' : 'text-[#6F6F6F]'}`}
+                className={`block py-2 font-display text-3xl tracking-tight ${active === item.href ? 'text-[#000000]' : 'text-[#6F6F6F]'}`}
               >
                 {item.label}
               </a>
             </li>
           ))}
         </ul>
-        <a href="#contact" onClick={() => setOpen(false)} className="mt-5 inline-flex rounded-full bg-ink px-6 py-2.5 text-sm text-white">
+        <a href="#contact" onClick={() => setOpen(false)} className="mt-5 inline-flex rounded-full bg-black px-6 py-2.5 text-sm text-white">
           Get a Quote
         </a>
       </div>

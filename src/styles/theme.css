@@ -2,7 +2,7 @@
 
 @theme {
   --color-background: #ffffff;
-  --color-ink: #01337a; /* headings and strong text use the brand navy */
+  --color-ink: #000000;
   --color-muted: #6f6f6f;
   --color-line: #ececec;
   --color-soft: #f6f6f4;
@@ -35,7 +35,7 @@
     @apply bg-background text-ink font-body antialiased;
   }
   ::selection {
-    background: var(--color-ink);
+    background: #000;
     color: #fff;
   }
 }
