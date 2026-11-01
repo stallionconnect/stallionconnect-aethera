@@ -7,7 +7,7 @@ type Props = { service: string; onServiceChange: (id: string) => void };
 
 const SERVICE_OPTIONS = [
   ['call-centre', 'Call Centre Operations'],
-  ['banking', 'Banking & Financial Services'],
+  ['banking', 'Conventional & Islamic Banking'],
   ['sales', 'Inbound & Outbound Sales'],
   ['bpo-ites', 'BPO & ITES Operations'],
   ['support-leads', 'Customer Support & Lead Generation'],

@@ -43,18 +43,18 @@ export const SERVICES: Service[] = [
     title: 'Domestic & International Call Centre Operations',
     short: 'Domestic and international voice support, run by trained and quality-monitored agents.',
     lead: 'Professionally managed voice operations for customers across India and overseas markets, with trained agents, quality monitoring and flexible shift coverage.',
-    points: ['Inbound customer care & helpdesk', 'Outbound calling campaigns', 'Multilingual support in English, Hindi & regional languages', 'International voice processes for US, UK & Australian time zones', 'Call quality monitoring & audits', 'Escalation & complaint management'],
+    points: ['Inbound customer care & helpdesk', 'Outbound calling campaigns', 'Multilingual support in English, Hindi & regional languages', 'International voice processes for UAE, US, UK & Australian time zones', 'Call quality monitoring & audits', 'Escalation & complaint management'],
     idealFor: 'Banks, telecom, e-commerce, travel and any business with high call volumes.',
     youGet: ['Dedicated or shared agent teams', 'Flexible shifts across time zones', 'Daily and monthly MIS reports'],
   },
   {
     id: 'banking',
-    title: 'Banking & Financial Services Outsourcing',
-    short: 'Card and loan sales, onboarding, KYC and collections support for banks, NBFCs and fintechs.',
-    lead: 'Specialised teams for banks, NBFCs, fintechs and insurers, handling sales, service and verification with the care financial customers expect.',
-    points: ['Credit card & personal loan sales', 'Customer onboarding & KYC verification', 'Account and card servicing support', 'Collections & payment reminder calls', 'Insurance tele-sales & renewals', 'Document collection & verification'],
-    idealFor: 'Banks, NBFCs, fintechs, insurers and payment companies.',
-    youGet: ['Process-trained BFSI agents', 'Compliance-first scripts and checks', 'Conversion and quality tracking'],
+    title: 'Conventional & Islamic Banking Outsourcing',
+    short: 'Covered card and personal finance sales, onboarding, KYC and collections for banks, NBFCs and fintechs.',
+    lead: 'Specialised teams for conventional and Islamic banks, NBFCs, fintechs and insurers, handling sales, service and verification with the care financial customers expect.',
+    points: ['Covered card & personal finance sales', 'Customer onboarding & KYC verification', 'Account and card servicing support', 'Collections & payment reminder calls', 'Insurance & takaful tele-sales and renewals', 'Document collection & verification'],
+    idealFor: 'Conventional and Islamic banks, NBFCs, fintechs, insurers and payment companies.',
+    youGet: ['Agents trained on conventional and Islamic products', 'Compliance-first scripts and checks', 'Conversion and quality tracking'],
   },
   {
     id: 'sales',
@@ -109,7 +109,7 @@ export const ABOUT = {
     "We partner with banks, financial services firms and fast-growing brands to manage the customer conversations and operational work that matter most, from answering a customer's first call to closing a sale, verifying a document or updating a record.",
     'Every engagement is built around clear goals, trained teams and transparent reporting, so you always know how your process is performing.',
   ],
-  scope: ['Domestic & international call centre operations', 'Banking & financial services outsourcing', 'Inbound & outbound sales', 'BPO & ITES operations', 'Customer support & lead generation', 'Recruitment & training', 'Back-office & administrative services'],
+  scope: ['Domestic & international call centre operations', 'Banking & financial services outsourcing, conventional and Islamic', 'Inbound & outbound sales', 'BPO & ITES operations', 'Customer support & lead generation', 'Recruitment & training', 'Back-office & administrative services'],
   drives: [
     { title: 'Mission', text: 'To deliver reliable, high-quality outsourcing services that help our clients grow, while building rewarding careers for our people.' },
     { title: 'Vision', text: 'To be a trusted name in customer experience and business process outsourcing, known for quality, integrity and results.' },
@@ -131,7 +131,7 @@ export const ABOUT = {
 };
 
 export const INDUSTRIES = [
-  { id: 'bfsi', title: 'Banking & Financial Services', text: 'Card and loan sales, onboarding, KYC and collections for banks, NBFCs and fintechs.', tags: ['Tele-sales', 'KYC', 'Collections'] },
+  { id: 'bfsi', title: 'Conventional & Islamic Banking', text: 'Covered card and personal finance sales, onboarding, KYC and collections for conventional and Islamic banks, NBFCs and fintechs.', tags: ['Tele-sales', 'KYC', 'Collections'] },
   { id: 'insurance', title: 'Insurance', text: 'Policy sales, renewals, claims assistance and policyholder service.', tags: ['Renewals', 'Claims support', 'Tele-sales'] },
   { id: 'telecom', title: 'Telecom & Internet', text: 'Activations, plan upgrades, billing queries and technical support.', tags: ['Helpdesk', 'Upgrades', 'Retention'] },
   { id: 'ecommerce', title: 'E-commerce & Retail', text: 'Order support, returns, seller onboarding and catalogue management.', tags: ['Order support', 'Chat', 'Back-office'] },
