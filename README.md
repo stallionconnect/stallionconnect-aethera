@@ -26,7 +26,7 @@ npm run dev
 
 ## Deploying
 
-Every push to `main` runs `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages. Pages serves the site from a sub-folder, so the workflow sets `BASE_PATH=/connectstallion-aethera/`; change it there if the repository is renamed.
+Every push to `main` runs `.github/workflows/deploy.yml`, which builds the site and publishes it to GitHub Pages. Pages serves the site from a sub-folder, so the workflow sets `BASE_PATH=/stallionconnect-theme/`; change it there if the repository is renamed.
 
 Without `BASE_PATH` the site builds for the domain root, which is what Vercel, Render or a custom domain need: build command `npm run build`, output folder `dist`. The workflow above is only for GitHub Pages and can be deleted if you move.
 
